@@ -24,7 +24,7 @@ selectEl.addEventListener('change', onChange);
 
 function onChange(e) {
   e.preventDefault();
-  breedId = selectEl.value;
+  let breedId = selectEl.value;
   hideCatContainer();
   showLoader();
 
